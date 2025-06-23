@@ -1,10 +1,10 @@
 # ICAS: IP-Adapter and ControlNet-based Attention Structure for Multi-Subject Style Transfer Optimization
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-blue)](https://ieeexplore.ieee.org/document/YOUR_PAPER_ID) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) This repository contains the official implementation for the paper: **"ICAS: IP-Adapter and ControlNet-based Attention Structure for Multi-Subject Style Transfer Optimization"**.
+[![arXiv](https://img.shields.io/badge/arXiv-2504.13224-b31b1b.svg)](https://arxiv.org/abs/2504.13224) This repository contains the official implementation for the paper: **"ICAS: IP-Adapter and ControlNet-based Attention Structure for Multi-Subject Style Transfer Optimization"**.
 
 Our work introduces ICAS, a novel framework for efficient and controllable multi-subject style transfer. It addresses the challenges of maintaining semantic fidelity for multiple subjects while applying a consistent style, without relying on computationally expensive inversion procedures or large-scale stylized datasets.
 
-![Teaser Image](https://i.imgur.com/YOUR_TEASER_IMAGE.jpg) ## 核心特性 (Core Features)
+## 核心特性 (Core Features)
 
 - **Efficient Fine-tuning**: ICAS adaptively fine-tunes only the content injection branch of the pre-trained diffusion model, significantly enhancing the controllability of style while preserving identity semantics and avoiding the high cost of full model fine-tuning.
 - **Decoupled Control over Structure and Style**: By combining IP-Adapter for adaptive style injection and ControlNet for structural conditionalization, our framework is able to faithfully preserve the global layout while precisely applying the style.
